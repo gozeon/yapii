@@ -33,6 +33,8 @@ see `CHANGELOG.v2.md` or [wiki](https://github.com/gozeon/yapii/wiki)
 2. `docker compose up -d`
 3. 设置系统管理员 `docker compose run --rm yapii node server/install.js`
 
+> 具体可参考[frankcou](https://github.com/frankcou) 给的[详细步骤](https://github.com/gozeon/yapii/issues/19)
+
 ## 设置系统管理员
 
 ```bash
