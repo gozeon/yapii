@@ -14,6 +14,8 @@ services:
   mongo:
     image: bitnami/mongodb:latest
     container_name: yapii_mongo
+    environment:
+      - ALLOW_EMPTY_PASSWORD=yes
     ports:
       - "27017:27017"
     volumes:
